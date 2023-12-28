@@ -157,7 +157,7 @@ try {
         Connection connection;
         String databaseName = "users";
         String databaseUser = "root";
-        String databasePassword = "C3c!.+_!&@^$@#(__--1)+%$*";
+        String databasePassword = "";
         String databaseUrl = "jdbc:mysql://localhost/"+databaseName;
         connection = DriverManager.getConnection(databaseUrl,databaseUser,databasePassword);
 
